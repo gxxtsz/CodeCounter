@@ -1,0 +1,28 @@
+{
+  "types": [
+    {
+      "name": "python文件",
+      "suffix": ".py"
+    },
+    {
+      "name": "c++文件",
+      "suffix": ".cpp"
+    },
+    {
+      "name": "c++头文件",
+      "suffix": ".h"
+    },
+    {
+      "name": "txt文件",
+      "suffix": ".txt"
+    }
+  ],
+  "filter": {
+    "dir": [
+      "^\\..*"
+    ],
+    "file": [
+      "^\\..*"
+    ]
+  }
+}
