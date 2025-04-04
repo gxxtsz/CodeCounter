@@ -35,7 +35,7 @@
     },
     {
       "name": "c++头文件",
-      "suffix": ".h"
+      "suffix": ".hpp"
     },
     {
       "name": "txt文件",
