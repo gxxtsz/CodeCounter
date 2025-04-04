@@ -329,7 +329,7 @@ class MainWindow(QMainWindow):
         self.tab_widget = QTabWidget(self)
         vlayout.addWidget(self.tab_widget)
         self.tab_widget.setTabsClosable(True)
-        self.tab_widget.tabCloseRequested.connect(self.tab_widget.removeTab)
+        self.tab_widget.tabCloseRequested.connect(self.tab_widget.removeTab)# 关闭最后一个tab软件直接闪退，待修复
         self.tab_widget.currentChanged.connect(self.tab_current_changed)
 
         # 状态栏
